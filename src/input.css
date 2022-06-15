@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .check-btn {
+    @apply bg-green-400 text-green-700 opacity-80 rounded-full px-3 py-2 m-1 mt-2 active:bg-green-600 hover:opacity-90 focus:ring focus:ring-green-200 focus:ring-opacity-80 shadow;
+  }
+  .trash-btn {
+    @apply bg-red-400 text-red-700 opacity-80 rounded-full px-3 py-2 m-1 mt-2 active:bg-red-600 hover:opacity-90 focus:ring focus:ring-red-200 focus:ring-opacity-80 shadow;
+  }
+  .edit-btn {
+    @apply bg-cyan-400 text-cyan-700 opacity-80 rounded-full px-3 py-2 m-1 mt-2 active:bg-cyan-600 hover:opacity-90 focus:ring focus:ring-cyan-200 focus:ring-opacity-80 shadow;
+  }
+  .card-header {
+    @apply text-lg text-sky-500;
+  }
+  .card-title {
+    @apply text-xl text-slate-600;
+  }
+  .card-text {
+    @apply text-base text-slate-500;
+  }
+  .card {
+    @apply rounded-md shadow-md px-2 py-3;
+  }
+  .cancel-btn {
+    @apply bg-rose-400 text-white py-2 px-3 rounded my-2 active:bg-rose-600 hover:opacity-90 focus:ring focus:ring-rose-200 focus:ring-opacity-80;
+  }
+}
